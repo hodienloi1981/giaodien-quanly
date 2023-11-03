@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Tiêu đề giao diện</title>
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+   <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="public/fontawesome/css/all.min.css">
+   <link rel="stylesheet" href="public/datatables/css/dataTables.min.css">
+   <link rel="stylesheet" href="public/css/backend.css">
+</head>
+
+<body>
+   <div class="hdl-swapper d-flex">
+      <div class="hdl-left">
+         <div class="p-2">
+            <a href="index.php" class="brand-link">
+               <img src="public/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                  class="brand-image img-circle elevation-3" style="opacity: .8">
+               <span class="brand-text font-weight-light">QUẢN TRỊ</span>
+            </a>
+         </div>
+         <div class="user-panel p-2 d-flex">
+            <div class="image">
+               <img style="width:40px; height:40px;" src="public/dist/img/user2-160x160.jpg"
+                  class="img-fluid rounded-circle" alt="User Image">
+            </div>
+            <div class="info ms-2" style="line-height: 40px;">
+               <a href="#" class="d-block">Hồ Diên Lợi</a>
+            </div>
+         </div>
+         <nav class="m-2 mainmenu">
+            <ul class="main">
+
+               <li class="hdlitem item-sub">
+                  <i class="fa-brands fa-product-hunt icon-left"></i>
+                  <a href="#">Sản phẩm</a>
+                  <i class="fa-solid fa-plus icon-right"></i>
+                  <ul class="submenu">
+                     <li>
+                        <a href="product_index.php">Tất cả sản phẩm</a>
+                     </li>
+                     <li>
+                        <a href="category_index.php">Danh mục</a>
+                     </li>
+                     <li>
+                        <a href="brand_index.php">Thương hiệu</a>
+                     </li>
+                     <li>
+                        <a href="product_sale.php">Khuyễn mãi</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="hdlitem item-sub">
+                  <i class="fa-brands fa-product-hunt icon-left"></i>
+                  <a href="#">Bài viết</a>
+                  <i class="fa-solid fa-plus icon-right"></i>
+                  <ul class="submenu">
+                     <li>
+                        <a href="post_index.php">Tất cả bài viết</a>
+                     </li>
+                     <li>
+                        <a href="topic_index.php">Danh mục</a>
+                     </li>
+                     <li>
+                        <a href="page_index.php">Thương hiệu</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="hdlitem item-sub">
+                  <i class="fa-brands fa-product-hunt icon-left"></i>
+                  <a href="#">Quản lý bán hàng</a>
+                  <i class="fa-solid fa-plus icon-right"></i>
+                  <ul class="submenu">
+                     <li>
+                        <a href="order_index.php">Tất cả đơn hàng</a>
+                     </li>
+                     <li>
+                        <a href="import_index.php">Nhập hàng</a>
+                     </li>
+                     <li>
+                        <a href="export_index.php">Xuất hàng</a>
+                     </li>
+
+                  </ul>
+               </li>
+               <li class="hdlitem">
+                  <i class="fa-regular fa-circle icon-left"></i>
+                  <a href="customer_index.php">Khách hàng</a>
+               </li>
+               <li class="hdlitem">
+                  <i class="fa-regular fa-circle icon-left"></i>
+                  <a href="contact_index.php">Liên hệ</a>
+               </li>
+               <li class="hdlitem item-sub">
+                  <i class="fa-brands fa-product-hunt icon-left"></i>
+                  <a href="#">Giao diện</a>
+                  <i class="fa-solid fa-plus icon-right"></i>
+                  <ul class="submenu">
+                     <li>
+                        <a href="menu_index.php">Menu</a>
+                     </li>
+                     <li>
+                        <a href="banner_index.php">Banner</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="hdlitem item-sub">
+                  <i class="fa-brands fa-product-hunt icon-left"></i>
+                  <a href="#">Hệ thống</a>
+                  <i class="fa-solid fa-plus icon-right"></i>
+                  <ul class="submenu">
+                     <li>
+                        <a href="user_index.php">Thành viên</a>
+                     </li>
+                     <li>
+                        <a href="config_index.php">Cấu hình</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </nav>
+      </div>
+      <div class="flex-grow-1">
+         <div class="hdl-topbar bg-light">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+               <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                     <i class="fas fa-bars"></i>
+                  </a>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                     </ul>
+                     <ul class="nav justify-content-end">
+                        <li class=" nav-item text-end">
+                           <a class="nav-link" href="#" role="button">
+                              <i class="fas fa-power-off"></i> Đăng xuất
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="content-wrapper">
+            <section class="content-header">
+               <div class="container-fluid">
+                  <div class="row mb-2">
+                     <div class="col-sm-12">
+                        <h3 class="d-inline">Chi tiết</h3>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="content p-3">
+               <div class="card">
+                  <div class="card-header">
+                     <div class="row">
+                        <div class="col-12 text-end">
+                           <a href="banner_index.php" class="btn btn-sm btn-info">
+                              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                              Về danh sách
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <table class="table table-bordered">
+                        <thead>
+                           <tr>
+                              <th style="width:180px">Tên trường</th>
+                              <th>Giá trị</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>Id</td>
+                              <td>1</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+   </div>
+   <script src="public/jquery/jquery-3.7.0.min.js"></script>
+   <script src="public/datatables/js/dataTables.min.js"></script>
+   <script src="public/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="public/js/backend.js"></script>
+   <script>
+      $(document).ready(function () {
+         $('#mytable').DataTable();
+      });
+   </script>
+</body>
+
+</html>
